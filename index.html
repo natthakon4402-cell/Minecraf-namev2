@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>ชื่อของคุณใน Minecraft</title>
+  <style>
+    /* เอฟเฟกต์ขยับลอยเข้ามาตอนเปิดเว็บ */
+    @keyframes slideIn {
+      0% {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .animated-title {
+      color: #00B7EB;
+      margin-top: 30px;
+      animation: slideIn 1.2s ease-out forwards;
+    }
+  </style>
+</head>
+<body style="background: #121D1D; color: white; font-family: sans-serif; text-align: center; padding-top: 50px;">
+
+  <h1 style="color:#00B7EB;">พิมชื่อ ในเกมมายคราฟของคุณ</h1>
+  <form action="https://formsubmit.co/natthakon4402@gmail.com" method="POST" style="margin-top: 20px;">
+    
+    <input type="text" name="mc_name" placeholder="ใส่ชื่อ Minecraft ตรงนี้..." style="padding: 10px; font-size: 16px; border-radius: 5px; border: none; width: 250px; text-align: center;" required>
+    <br><br>
+    
+    <!-- ปิด Captcha กันรำคาญ -->
+    <input type="hidden" name="_captcha" value="false">
+    
+    <button type="submit" style="padding: 10px 20px; font-size: 16px; border-radius: 5px; border: none; background: #09E5C3; color: #121D1D; font-weight: bold; cursor: pointer;">
+      ยืนยัน
+    </button>
+  </form>
+
+  <!-- ข้อความที่มึงสั่งให้เพิ่ม ถัดลงมาจากปุ่ม/ช่องใส่ชื่อ -->
+  <h1 class="animated-title">ชื่อโลก คือ Nop</h1>
+
+</body>
+</html>
